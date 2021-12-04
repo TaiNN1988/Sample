@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cpu">
+      <UniqueIdentifier>{103c67fa-c028-45df-aed2-54c32d26e908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cpu">
+      <UniqueIdentifier>{43854366-90b9-4af8-ae01-78b94f9501cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gpu">
+      <UniqueIdentifier>{8a2ef914-7887-430d-9bcf-61a2cd8385da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenCL">
+      <UniqueIdentifier>{e96e69f8-50ce-4358-ac95-cb6cc9f09485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gpu">
+      <UniqueIdentifier>{43bb07c9-6e71-402f-a5a9-882af07eb63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenCL">
+      <UniqueIdentifier>{f27bd6ce-53cf-455c-aa1c-9562c9c30058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParallelDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpu\AddVector.cpp">
+      <Filter>Source Files\Cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpu\MulMatrix.cpp">
+      <Filter>Source Files\Cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cpu\MulMatrix.h">
+      <Filter>Header Files\Cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddVector.h">
+      <Filter>Header Files\Cpu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ParallelDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
